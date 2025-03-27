@@ -1,1 +1,1 @@
-# try-supabase
+# try-template
