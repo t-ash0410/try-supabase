@@ -1,0 +1,21 @@
+{
+  "name": "@try-supabase/backend",
+  "scripts": {
+    "migrate": "prisma migrate dev",
+    "migrate:reset": "prisma migrate reset --force",
+    "studio": "prisma studio",
+    "check": "biome check",
+    "check:write": "biome check --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "prisma": "^6.3.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.1"
+  }
+}
