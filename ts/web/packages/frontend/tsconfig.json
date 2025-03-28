@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"],
-      "@backend/*": ["../../node_modules/@try-graphql/backend/src/*"]
+      "@backend/*": ["../../node_modules/@try-supabase/backend/src/*"]
     },
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
