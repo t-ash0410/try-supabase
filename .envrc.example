@@ -9,5 +9,4 @@ export DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?sch
 export USE_HTTPS="true"
 
 # Frontend
-export NEXT_PUBLIC_SUPABASE_URL=your-project-url
-export NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+export VITE_BACKEND_URL="https://localhost:8080"
